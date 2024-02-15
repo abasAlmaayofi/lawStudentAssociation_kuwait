@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "vexa";
+  src: local("VEXA"), url("VEXA.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "vexa_light";
+  src: local("VEXA_light"), url("VEXA_light.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TrikaRegular";
+  src: local("TrikaRegular"), url("TrikaRegular.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
