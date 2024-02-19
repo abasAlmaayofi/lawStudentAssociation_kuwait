@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./pages/home.page";
 import Contact from "./pages/contact.page";
 import Entrance from "./pages/enterance.page";
+import FirstYear from "./pages/first.page";
 
 function App() {
   return (
@@ -11,6 +12,10 @@ function App() {
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/first-year" element={<FirstYear />} />
+          <Route path="/second-year" element={<FirstYear />} />
+          <Route path="/third-year" element={<FirstYear />} />
+          <Route path="/fourth-year" element={<FirstYear />} />
           <Route path="/" element={<Entrance />} />
         </Routes>
       </BrowserRouter>
