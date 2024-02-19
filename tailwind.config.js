@@ -15,6 +15,9 @@ module.exports = {
       TrikaRegular: ["TrikaRegular"],
       "vexa-light": ["VEXA_light"],
     },
+    backgroundImage: {
+      backgroundPaper: "url('/background.jpg')",
+    },
     container: {
       center: true,
       padding: "2rem",
