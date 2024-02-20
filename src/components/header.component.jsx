@@ -15,16 +15,16 @@ const Header = () => {
   const [showYears, setShowYears] = useState(false);
   const path = window.location.pathname;
 
-  useEffect(() => {
-    if (
-      path === "/first-year" ||
-      path === "/second-year" ||
-      path === "/third-year" ||
-      path === "/fourth-year"
-    ) {
-      setShowYears(true);
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (
+  //     path === "/first-year" ||
+  //     path === "/second-year" ||
+  //     path === "/third-year" ||
+  //     path === "/fourth-year"
+  //   ) {
+  //     setShowYears(true);
+  //   }
+  // }, []);
   return (
     <>
       <div className="w-screen flex justify-end pr-2 py-2 text-[#3384c3]">
@@ -43,7 +43,7 @@ const Header = () => {
             animate={{ x: 0, opacity: 1 }}
             exit={{ x: 1000, opacity: 0 }}
             transition={{ type: "spring", stiffness: 40 }}
-            className="fixed inset-0 left-[30%] bg-white/20 border-white backdrop-blur-lg flex flex-col z-50 text-[#3384c3]"
+            className="fixed inset-0 md:left-[60%] left-[30%] bg-white/20 border-white backdrop-blur-lg flex flex-col z-50 text-[#3384c3]"
           >
             <div className="mt-1 ml-1 border-b border-[#3384c3]/40">
               <Button
@@ -151,7 +151,7 @@ const Header = () => {
                           transition={{
                             type: "spring",
                             stiffness: 30,
-                            delay: 0.16,
+                            delay: 0.05,
                           }}
                         >
                           <Link
@@ -176,7 +176,7 @@ const Header = () => {
                           transition={{
                             type: "spring",
                             stiffness: 30,
-                            delay: 0.18,
+                            delay: 0.08,
                           }}
                         >
                           <Link
@@ -201,7 +201,7 @@ const Header = () => {
                           transition={{
                             type: "spring",
                             stiffness: 30,
-                            delay: 0.22,
+                            delay: 0.1,
                           }}
                         >
                           <Link
@@ -226,7 +226,7 @@ const Header = () => {
                           transition={{
                             type: "spring",
                             stiffness: 30,
-                            delay: 0.24,
+                            delay: 0.12,
                           }}
                         >
                           <Link
