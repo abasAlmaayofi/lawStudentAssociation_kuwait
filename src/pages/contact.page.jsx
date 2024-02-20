@@ -116,7 +116,7 @@ const Contact = () => {
                     </Link>
                   </div>{" "}
                 </div>
-                <div className="flex w-full justify-center text-[#3384c3] md:text-xs text-[11px] flex-row-reverse gap-4  mt-4 mb-6">
+                <div className="flex w-full justify-center text-[#3384c3] md:text-xs text-[11px] flex-row-reverse gap-4  mt-4 mb-6 ml-2">
                   <p className="flex  flex-col-reverse justify-end gap-2 pr-4 mr-2">
                     <div className="flex flex-col gap-2">
                       <div className="flex gap-2">
@@ -126,12 +126,11 @@ const Contact = () => {
                         >
                           +965 60607424
                         </Link>
-                        <FaPhone />
                       </div>
                     </div>
-                    <span className="text-end text-[15px]">:طلبة</span>
+                    <span className="text-center text-[15px]">طلبة</span>
                   </p>
-                  <p className="flex  flex-col-reverse gap-2 border-r border-[#3384c3]/70 pr-4 mr-2">
+                  <p className="flex  flex-col-reverse gap-2 border-r border-[#3384c3]/70 pr-8 mr-2">
                     <div className="flex flex-col gap-2">
                       <div className="flex gap-2">
                         <Link
@@ -140,7 +139,6 @@ const Contact = () => {
                         >
                           +965 90014755
                         </Link>
-                        <FaPhone />
                       </div>
                       <div className="flex gap-2">
                         <Link
@@ -149,10 +147,9 @@ const Contact = () => {
                         >
                           +965 90014755
                         </Link>
-                        <FaPhone />
                       </div>
                     </div>
-                    <span className="text-end text-[15px]">:طالبات</span>
+                    <span className="text-center text-[15px]">طالبات</span>
                   </p>
                 </div>
                 <div class="relative mt-2 flex items-center">
