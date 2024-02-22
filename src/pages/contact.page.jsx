@@ -142,10 +142,10 @@ const Contact = () => {
                       </div>
                       <div className="flex gap-2">
                         <Link
-                          to="https://wa.me/96590014755"
+                          to="https://wa.me/96565748890"
                           className="underline"
                         >
-                          +965 90014755
+                          +965 65748890
                         </Link>
                       </div>
                     </div>

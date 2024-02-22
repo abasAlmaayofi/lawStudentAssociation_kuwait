@@ -14,7 +14,7 @@ const SecondYear = () => {
         <img
           src={Background}
           alt="kuwait-university-collage-of-law"
-          className="w-full md:h-[1000px] h-[1460px] object-fit"
+          className="w-full md:h-[1200px] h-[1660px] object-fit"
         />
         <div className="absolute top-0 w-screen h-full bg-gray-200/50  ">
           <div className="border-b-4 border-double border-[#3384c3]/90 pb-12">
@@ -33,6 +33,19 @@ const SecondYear = () => {
             <span>:إختر إحدى المقررات التالية</span> <LuDiamond />
           </p>
           <div className="grid grid-cols-2 mt-2 pt-8 md:grid-cols-5 gap-y-12 ">
+            <File
+              links={[
+                {
+                  link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/second-year/test/test2018.pdf?t=2024-02-22T13%3A19%3A01.661Z",
+                  text: "اختبارات سابقة للفرقة الثانية ٢٠١٨ - ٢٠١٩",
+                },
+                {
+                  link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/second-year/test/test2021.pdf?t=2024-02-22T13%3A19%3A13.231Z",
+                  text: "اختبارات سابقة للفرقة الثانية ٢٠٢١ - ٢٠٢٢",
+                },
+              ]}
+              title="اختبارات فاينل سابقة"
+            />
             <File
               links={[
                 {

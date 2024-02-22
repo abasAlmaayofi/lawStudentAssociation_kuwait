@@ -24,7 +24,7 @@ const File = ({ links, title = "unknown" }) => {
           <p className="text-center text-[#3384c3]">{title}</p>
         </Link>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-md">
+      <DialogContent className="sm:max-w-md max-h-[80%] overflow-scroll">
         <DialogHeader>
           <DialogTitle className="w-full text-right pr-8">نوتات</DialogTitle>
           <DialogDescription className="text-right flex flex-col items-end gap-2 pt-4">
