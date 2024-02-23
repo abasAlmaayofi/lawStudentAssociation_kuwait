@@ -76,148 +76,148 @@ const Home = () => {
             <Button variant="link">
               <Link
                 to="https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/Student-Handbook20-21_CBA-27-32%20(1).pdf?t=2024-02-16T21%3A33%3A47.600Z"
-                className="relative w-80 h-16 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
+                className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> نظام كلية الحقوق</p>{" "}
-                {/* <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[35px] h-[35px] rounded-full bg-[#3384c3]/90 flex items-center justify-center text-white text-md">
-            1
-          </span> */}
+                <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  1
+                </span>
               </Link>
             </Button>
             <Button variant="link">
               <Link
                 to="https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/student_manual-35-36.pdf?t=2024-02-15T20%3A10%3A28.529Z"
-                className="relative w-80 h-16 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
+                className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> صحيفة التخرج </p>{" "}
-                {/* <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[35px] h-[35px] rounded-full bg-[#3384c3]/90 flex items-center justify-center text-white text-md">
-            2
-          </span> */}
+                <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  2
+                </span>
               </Link>
             </Button>
             <Button variant="link">
               {" "}
               <Link
                 to="https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/transferConditions.pdf?t=2024-02-21T21%3A15%3A07.843Z"
-                className="relative w-80 h-16 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
+                className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> شروط التحويل </p>{" "}
-                {/* <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[35px] h-[35px] rounded-full bg-[#3384c3]/90 flex items-center justify-center text-white text-md">
-            3
-          </span> */}
+                <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  3
+                </span>
               </Link>
             </Button>
             <Button variant="link">
               <Link
                 to="/first-year"
-                className="relative w-80 h-16 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
+                className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> الفرقة الدراسية الأولي </p>
-                {/* <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[35px] h-[35px] rounded-full bg-[#3384c3]/90 flex items-center justify-center text-white text-md">
-            4
-          </span> */}
+                <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  4
+                </span>
               </Link>
             </Button>
             <Button variant="link">
               {" "}
               <Link
                 to="/second-year"
-                className="relative w-80 h-16 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
+                className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> الفرقة الدراسية الثانية </p>{" "}
-                {/* <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[35px] h-[35px] rounded-full bg-[#3384c3]/90 flex items-center justify-center text-white text-md">
-            5
-          </span> */}
+                <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  5
+                </span>
               </Link>
             </Button>
             <Button variant="link">
               <Link
                 to="third-year"
-                className="relative w-80 h-16 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
+                className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> الفرقة الدراسية الثالثة </p>{" "}
-                {/* <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[35px] h-[35px] rounded-full bg-[#3384c3]/90 flex items-center justify-center text-white text-md">
-            6
-          </span> */}
+                <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  6
+                </span>
               </Link>
             </Button>
             <Button variant="link">
               {" "}
               <Link
                 to="fourth-year"
-                className="relative w-80 h-16 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
+                className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> الفرقة الدراسية الرابعة </p>{" "}
-                {/* <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[35px] h-[35px] rounded-full bg-[#3384c3]/90 flex items-center justify-center text-white text-md">
-            7
-          </span> */}
+                <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  7
+                </span>
               </Link>
             </Button>
             <Button variant="link">
               {" "}
               <Link
                 to="https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/associationMovement.pdf?t=2024-02-15T17%3A30%3A53.868Z"
-                className="relative w-80 h-16 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
+                className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> تحركات الجمعية </p>{" "}
-                {/* <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[35px] h-[35px] rounded-full bg-[#3384c3]/90 flex items-center justify-center text-white text-md">
-            8
-          </span> */}
+                <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  8
+                </span>
               </Link>
             </Button>
             <Button variant="link">
               <Link
                 to="https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/jobs.pdf?t=2024-02-15T20%3A04%3A44.866Z"
-                className="relative w-80 h-16 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
+                className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> الفرص الوظيفية ورواتبها </p>{" "}
-                {/* <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[35px] h-[35px] rounded-full bg-[#3384c3]/90 flex items-center justify-center text-white text-md">
-            9
-          </span> */}
+                <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  9
+                </span>
               </Link>
             </Button>
             <Button variant="link">
               <Link
                 to="https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/medicalSheet.pdf?t=2024-02-15T17%3A37%3A34.012Z"
-                className="relative w-80 h-16 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
+                className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> نموذج العذر الطبي</p>{" "}
-                {/* <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[35px] h-[35px] rounded-full bg-[#3384c3]/90 flex items-center justify-center text-white text-md">
-            10
-          </span> */}
+                <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  10
+                </span>
               </Link>
             </Button>
             <Button variant="link">
               <Link
                 to="https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/medicalExemptionTerms.jpeg?t=2024-02-15T17%3A37%3A08.728Z"
-                className="relative w-80 h-16 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
+                className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p>شروط العذر الطبي</p>
-                {/* <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[35px] h-[35px] rounded-full bg-[#3384c3]/90 flex items-center justify-center text-white text-md">
-            11
-          </span> */}
+                <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  11
+                </span>
               </Link>
             </Button>
             <Button variant="link">
               <Link
                 to="https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/complaints.jpeg?t=2024-02-15T20%3A04%3A29.656Z"
-                className="relative w-80 h-16 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
+                className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p>للإقتراحات والشكاوي</p>
-                {/* <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[35px] h-[35px] rounded-full bg-[#3384c3]/90 flex items-center justify-center text-white text-md">
-            11
-          </span> */}
+                <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  12
+                </span>
               </Link>
             </Button>
             <Button variant="link">
               <Link
                 to="/faculty-accounts"
-                className="relative w-80 h-16 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
+                className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p>أقسام كلية الحقوق و أعضاء هيئة التدريس</p>
-                {/* <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[35px] h-[35px] rounded-full bg-[#3384c3]/90 flex items-center justify-center text-white text-md">
-            11
-          </span> */}
+                <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  13
+                </span>
               </Link>
             </Button>
           </div>

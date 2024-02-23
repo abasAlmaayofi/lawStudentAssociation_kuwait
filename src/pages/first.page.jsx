@@ -56,10 +56,10 @@ const FirstYear = () => {
                   link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/dstory/ayaGallaf.pdf?t=2024-02-17T22%3A12%3A31.249Z",
                   text: "تنويت-د.محمد الفيلي-ايه القلاف",
                 },
-                {
-                  link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/dstory/demaAlajaji.pdf?t=2024-02-17T22%3A13%3A21.296Z",
-                  text: "نوت ديما العجاجي",
-                },
+                // {
+                //   link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/dstory/demaAlajaji.pdf?t=2024-02-17T22%3A13%3A21.296Z",
+                //   text: "نوت ديما العجاجي",
+                // },
                 {
                   link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/dstory/husianManee.pdf?t=2024-02-17T22%3A13%3A54.371Z",
                   text: "نوت حسين الميع ",
@@ -67,6 +67,26 @@ const FirstYear = () => {
                 {
                   link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/dstory/mohammedIbrahem.pdf?t=2024-02-17T22%3A14%3A33.281Z",
                   text: "دستوري مذكرة محمد ابراهيم ",
+                },
+                {
+                  link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/dstory/aliAlsayeq.pdf?t=2024-02-22T18%3A16%3A41.532Z",
+                  text: "مذكرة دستوري علي الصايغ",
+                },
+                {
+                  link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/dstory/brak1.pdf?t=2024-02-22T18%3A18%3A21.677Z",
+                  text: "دستوري الباب الاول-براك الحمد",
+                },
+                {
+                  link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/dstory/brakAlhamd3.pdf?t=2024-02-22T18%3A18%3A58.730Z",
+                  text: "دستوري الباب الثالث - براك الحمد",
+                },
+                {
+                  link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/dstory/revisionDestory.pdf?t=2024-02-22T18%3A19%3A47.571Z",
+                  text: "مراجعه دستوري",
+                },
+                {
+                  link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/dstory/sarahAlsayeq.pdf?t=2024-02-22T18%3A20%3A11.943Z",
+                  text: "مذكرة قانون دستوري سارة الفضلي",
                 },
               ]}
               title="قانون دستوري"
@@ -123,6 +143,10 @@ const FirstYear = () => {
                   link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/assol/Note%20on%20the%20principles%20of%20the%20law,%20Book%20Two%20-%20Muhammad%20Al-Fadl.pdf?t=2024-02-17T23%3A44%3A37.071Z",
                   text: "مذكرة أصول قانون الكتاب الثاني - محمد الفضل",
                 },
+                {
+                  link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/assol/samah.pdf?t=2024-02-22T18%3A09%3A07.795Z",
+                  text: "اصول من ١ الى ٢٦٦",
+                },
               ]}
               title="اصول قانون"
             />
@@ -172,11 +196,11 @@ const FirstYear = () => {
               links={[
                 {
                   link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/economy/barakAlhamad1.pdf?t=2024-02-19T03%3A26%3A51.886Z",
-                  text: "اقتصاد (القسم الاول)",
+                  text: "اقتصاد (القسم الاول) -  نوت براك الحمد",
                 },
                 {
                   link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/economy/barakAlhamad2.pdf",
-                  text: "اقتصاد (القسم الثاني)",
+                  text: "اقتصاد (القسم الثاني) - نوت براك الحمد",
                 },
                 {
                   link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/economy/omarAlshamery.pdf?t=2024-02-19T03%3A27%3A25.475Z",
@@ -190,6 +214,34 @@ const FirstYear = () => {
                   link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/economy/taif.pdf?t=2024-02-19T03%3A28%3A26.908Z",
                   text: "مبادئ الاقتصاد-طيف",
                 },
+                {
+                  link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/economy/aliAlsayeg.pdf?t=2024-02-22T18%3A34%3A38.832Z",
+                  text: "الاقتصاد الكويتي والنظام التعاوني علي الصايغ",
+                },
+                {
+                  link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/economy/fatimaDashti.pdf?t=2024-02-22T18%3A35%3A12.283Z",
+                  text: "محاضرات مقرر مبادئ الاقتصاد السياسي للدكتوره فاطمة دشتي ١",
+                },
+                {
+                  link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/economy/fatimaDashti2.pdf?t=2024-02-22T18%3A35%3A51.504Z",
+                  text: "محاضرات مقرر مبادئ الاقتصاد السياسي للدكتوره فاطمة دشتي ٢",
+                },
+                {
+                  link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/economy/fatimaDashti3.pdf?t=2024-02-22T18%3A36%3A19.767Z",
+                  text: "محاضرات لمقرر الاقتصاد السياسي للدكتوره فاطمة دشتي ٣",
+                },
+                {
+                  link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/economy/fatimaDashti4.pdf?t=2024-02-22T18%3A36%3A48.785Z",
+                  text: "محاضرات لمقرر الاقتصاد السياسي للدكتوره فاطمة دشتي ٤",
+                },
+                {
+                  link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/economy/husain.pdf?t=2024-02-22T18%3A37%3A12.095Z",
+                  text: "مفاهيم عامة لعلم الاقتصاد حسين فهد العجمي",
+                },
+                {
+                  link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/economy/midtern2.pdf?t=2024-02-22T18%3A37%3A57.271Z",
+                  text: "الميدتيرم الثاني اقتصاد",
+                },
               ]}
               title="مبادئ اقتصاد"
             />
@@ -197,11 +249,11 @@ const FirstYear = () => {
               links={[
                 {
                   link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/Sharia/barakAlhamad1.pdf?t=2024-02-19T03%3A28%3A59.188Z",
-                  text: "مدخل شريعه الفصل الاول",
+                  text: "مدخل شريعه الفصل الاول - نوت براك الحمد",
                 },
                 {
                   link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/Sharia/barakAlhamad2.pdf?t=2024-02-19T03%3A30%3A10.546Z",
-                  text: "مدخل الشريعة الفصل الثاني",
+                  text: "مدخل الشريعة الفصل الثاني - نوت براك الحمد",
                 },
                 {
                   link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/Sharia/omerAlshameri.pdf?t=2024-02-19T03%3A30%3A44.186Z",
@@ -218,6 +270,22 @@ const FirstYear = () => {
                 {
                   link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/Sharia/slmaAshkanani212_271.pdf?t=2024-02-19T03%3A32%3A05.502Z",
                   text: "شريعة ٢١٢ لي ٢٧١",
+                },
+                {
+                  link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/Sharia/converted.pdf?t=2024-02-22T18%3A42%3A12.028Z",
+                  text: "الشريعة-converted",
+                },
+                {
+                  link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/Sharia/samah1-200.pdf?t=2024-02-22T18%3A42%3A33.103Z",
+                  text: "شريعة ١ الى ٢٠٠ - سماح رضوان",
+                },
+                {
+                  link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/Sharia/samah253.pdf?t=2024-02-22T18%3A43%3A09.578Z",
+                  text: "شريعة ٢٠٠ الى ٢٥٣ - سماح رضوان",
+                },
+                {
+                  link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/Sharia/test.pdf?t=2024-02-22T18%3A43%3A56.743Z",
+                  text: "نماذج إختبارات شريعة",
                 },
               ]}
               title="مدخل الشريعة"
