@@ -20,7 +20,7 @@ function App() {
           <Route path="/second-year" element={<SecondYear />} />
           <Route path="/third-year" element={<ThirdYear />} />
           <Route path="/fourth-year" element={<FourthYear />} />
-          {/* <Route path="/faculty-accounts" element={<Faculty />} /> */}
+          <Route path="/faculty-accounts" element={<Faculty />} />
           <Route path="/" element={<Entrance />} />
         </Routes>
       </BrowserRouter>

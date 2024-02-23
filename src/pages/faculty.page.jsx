@@ -7,7 +7,10 @@ import { LuDiamond } from "react-icons/lu";
 import PageTransitionLayout from "@/components/pageTransitionLayout.component";
 import { RiNumber4 } from "react-icons/ri";
 import Collage from "@/components/collage.component";
-
+import PrivateImg from "../assets/private.jpg";
+import InternationalImg from "../assets/international.jpg";
+import JzaaeeImg from "../assets/jzaaee.jpg";
+import PublicImg from "../assets/public.jpg";
 const Faculty = () => {
   return (
     <>
@@ -48,10 +51,226 @@ const Faculty = () => {
             </p>
 
             <div className="grid grid-cols-1 mt-2 pt-8 md:grid-cols-4 gap-y-12 items-center justify-center">
-              <Collage title={"قسم القانون الخاص"} />
-              <Collage title={"قسم القانون الدولي"} />
-              <Collage title={"قسم القانون العام"} />
-              <Collage title={"قسم القانون الجزائي"} />
+              <Collage
+                img={PrivateImg}
+                title={"قسم القانون الخاص"}
+                accounts={[
+                  {
+                    name: "أ. د. فايز الكندري",
+                    account: "dr.fayezkandri",
+                  },
+                  {
+                    name: "د.موسي ازلق",
+                    account: "moussa dr_",
+                  },
+                  {
+                    name: "د.فاطمة الشريعان",
+
+                    account: "dralshf",
+                  },
+                  {
+                    name: "د.محمد الوسمي",
+                    account: "drmalwasmi",
+                  },
+                  {
+                    name: "د.انس النورة",
+                    account: "dranasaltourah",
+                  },
+                  {
+                    name: "د.ابراهيم الرشود",
+                    account: "Dr_IbrahimAlrushoud",
+                  },
+                  {
+                    name: "د. علي الحصينان",
+                    account: "Hussinan AL_",
+                  },
+                  {
+                    name: "د. خالد الهندباني",
+                    account: "khaledalhendyani",
+                  },
+                  {
+                    name: "د. محمد المطير",
+                    account: "Drmohammed_almutairi",
+                  },
+                  {
+                    name: "د. ازان ال بن علي",
+                    account: "raibenali",
+                  },
+                  {
+                    name: "د. هند العبيدي",
+                    account: "drHendalobaidi",
+                  },
+                  {
+                    name: "د. مهد الشمري",
+                    account: "alshammariFN",
+                  },
+                  {
+                    name: "د.خالد الظفيري",
+                    account: "Aldhafirikhaled",
+                  },
+                  {
+                    name: "د. يوسف الياقوت",
+                    account: "alyaqout Yousef_",
+                  },
+                  {
+                    name: "د. نجاة الحوطي",
+                    account: "Dr_Najat_Alhouti",
+                  },
+                  {
+                    name: "د. فهد الزميع",
+                    account: "alzumai.f",
+                  },
+                  {
+                    name: "د. مشعل جوهر",
+                    account: "Drmeshalhayat",
+                  },
+                  {
+                    name: "د. منئ جمال",
+                    account: "Dr_Monajamal",
+                  },
+                  {
+                    name: "د. علي بو عباس",
+                    account: "alibuabbas",
+                  },
+                  {
+                    name: "د. بشايرالماجد",
+                    account: "Al_majed",
+                  },
+                ]}
+              />
+              <Collage
+                img={InternationalImg}
+                title={"قسم القانون الدولي"}
+                accounts={[
+                  { name: "د. ديمة الوقيان", account: "Dalwugyan" },
+                  {
+                    name: "د. حسن الرشيد",
+                    account: "hassan_alrasheed",
+                  },
+                  {
+                    name: "د. علي الدوسري",
+                    account: "alihussin",
+                  },
+                  {
+                    name: " د. عيسى العنزي",
+                    account: "methqai",
+                  },
+                  {
+                    name: "د. فاطمة الظبيري",
+                    account: "Flaw",
+                  },
+                  {
+                    name: "د. بشاير الغانم",
+                    account: "DrbashayerAlghanim",
+                  },
+                ]}
+              />
+              <Collage
+                img={PublicImg}
+                title={"قسم القانون العام"}
+                accounts={[
+                  { name: "د. خالد الحربي", account: "alharbi_khaled" },
+                  {
+                    name: "د. عبدالمنعم نعيم",
+                    account: "drabdelmonemaeem",
+                  },
+                  { name: "د. بدر الفغم", account: "drbadralfogum" },
+                  {
+                    name: "د. منى الهاجري",
+                    account: "Dralhajri",
+                  },
+                  {
+                    name: "د. احمد عبدالكريم",
+                    account: "DrAhmadAbdulkarem",
+                  },
+                  {
+                    name: "د. منيرة النمش",
+                    account: "muneeraAlNemsh",
+                  },
+                  {
+                    name: "د. فاطمة دشتي",
+                    account: "FinancesEconomie",
+                  },
+                  {
+                    name: "د. خليفة الحميدة",
+                    account: "alhamidah",
+                  },
+                  {
+                    name: "د. فاطمة المحسن",
+                    account: "dralmohsen",
+                  },
+                  {
+                    name: "د. فواز الجدعي",
+                    account: "drfawazAljidie",
+                  },
+                  {
+                    name: "د. محمد الفيلي",
+                    account: "droitconstitutionnel",
+                  },
+                  {
+                    name: "د. ايمان الحمود",
+                    account: "emanalhamoud",
+                  },
+                  {
+                    name: "د. ارشيد الحوري",
+                    account: "drarshid",
+                  },
+                  {
+                    name: "د. سارة السلطان",
+                    account: "sarakhalsultan",
+                  },
+                ]}
+              />
+              <Collage
+                img={JzaaeeImg}
+                title={"قسم القانون الجزائي"}
+                accounts={[
+                  {
+                    name: "د. نورة العومي",
+                    account: "nouraaloumi",
+                  },
+                  {
+                    name: "د. حسين بوعركي",
+                    account: "Drhusainburaki",
+                  },
+                  {
+                    name: "د. خالد الرشيدي",
+                    account: "khaledalrashidi",
+                  },
+                  {
+                    name: "د. علي الرشيدي",
+                    account: "dralimalrashedi",
+                  },
+                  {
+                    name: "د. عمر المسعود",
+                    account: "dromar",
+                  },
+                  {
+                    name: "د. دلال السيف",
+                    account: "Dalsaif",
+                  },
+                  {
+                    name: "د. محمد التميمي",
+                    account: "mohammad_altamimi",
+                  },
+                  {
+                    name: "د. إيمات القطان",
+                    account: "DrElmanAlqattan",
+                  },
+                  {
+                    name: "د. هالة الصالح",
+                    account: "DrHalaAlsaleh",
+                  },
+                  {
+                    name: "د. بدر الراجحي",
+                    account: "DrVaderAlrajhi",
+                  },
+                  {
+                    name: "د. أحمد القحطاني",
+                    account: "ahmad_alqahtani",
+                  },
+                ]}
+              />
             </div>
             <Footer />
           </div>
