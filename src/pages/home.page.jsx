@@ -86,12 +86,23 @@ const Home = () => {
             </Button>
             <Button variant="link">
               <Link
+                to="/faculty-accounts"
+                className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
+              >
+                <p>أقسام كلية الحقوق و أعضاء هيئة التدريس</p>
+                <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  2
+                </span>
+              </Link>
+            </Button>
+            <Button variant="link">
+              <Link
                 to="https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/student_manual-35-36.pdf?t=2024-02-15T20%3A10%3A28.529Z"
                 className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> صحيفة التخرج </p>{" "}
-                <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
-                  2
+                <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  3
                 </span>
               </Link>
             </Button>
@@ -102,8 +113,8 @@ const Home = () => {
                 className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> شروط التحويل </p>{" "}
-                <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
-                  3
+                <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  4
                 </span>
               </Link>
             </Button>
@@ -113,8 +124,8 @@ const Home = () => {
                 className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> الفرقة الدراسية الأولي </p>
-                <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
-                  4
+                <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  5
                 </span>
               </Link>
             </Button>
@@ -125,8 +136,8 @@ const Home = () => {
                 className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> الفرقة الدراسية الثانية </p>{" "}
-                <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
-                  5
+                <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  6
                 </span>
               </Link>
             </Button>
@@ -136,8 +147,8 @@ const Home = () => {
                 className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> الفرقة الدراسية الثالثة </p>{" "}
-                <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
-                  6
+                <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  7
                 </span>
               </Link>
             </Button>
@@ -148,8 +159,8 @@ const Home = () => {
                 className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> الفرقة الدراسية الرابعة </p>{" "}
-                <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
-                  7
+                <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  8
                 </span>
               </Link>
             </Button>
@@ -160,8 +171,8 @@ const Home = () => {
                 className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> تحركات الجمعية </p>{" "}
-                <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
-                  8
+                <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  9
                 </span>
               </Link>
             </Button>
@@ -171,8 +182,8 @@ const Home = () => {
                 className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> الفرص الوظيفية ورواتبها </p>{" "}
-                <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
-                  9
+                <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  10
                 </span>
               </Link>
             </Button>
@@ -182,8 +193,8 @@ const Home = () => {
                 className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> نموذج العذر الطبي</p>{" "}
-                <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
-                  10
+                <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  11
                 </span>
               </Link>
             </Button>
@@ -193,8 +204,8 @@ const Home = () => {
                 className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p>شروط العذر الطبي</p>
-                <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
-                  11
+                <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
+                  12
                 </span>
               </Link>
             </Button>
@@ -204,22 +215,11 @@ const Home = () => {
                 className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p>للإقتراحات والشكاوي</p>
-                <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
-                  12
-                </span>
-              </Link>
-            </Button>
-            {/* <Button variant="link">
-              <Link
-                to="/faculty-accounts"
-                className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
-              >
-                <p>أقسام كلية الحقوق و أعضاء هيئة التدريس</p>
                 <span className="absolute -right-5 top-1/2 -translate-y-1/2 w-[40px] h-[40px] rounded-full bg-[#3384c3] flex items-center justify-center text-white text-md">
                   13
                 </span>
               </Link>
-            </Button> */}
+            </Button>
           </div>
           <Footer />
         </div>

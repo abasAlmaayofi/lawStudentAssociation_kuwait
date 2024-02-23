@@ -19,10 +19,16 @@ const Collage = ({ title, img, accounts = [{ name: "", account: "" }] }) => {
   return (
     <div className="w-[350px] mx-auto h-32 shadow-lg rounded-xl shadow-[#f2cc3f]/60 border-[0.5px] border-[#f2cc3f]">
       <div className="relative w-full h-full">
-        <img src="" alt="" />
+        <img
+          src={img}
+          alt="image"
+          className="w-full h-full rounded-lg bg-black opacity-40"
+          loading="lazy"
+        />
+
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-30">
-          <p className="text-[#3384c3] mt-2  w-fit mx-auto h-4 md:text-1xl font-vexa text-[20px] bg-[#f2cc3f]  md:text-right text-center leading-relaxed mb-6 bg-opacity-70">
-            <span className="relative -top-5">{title}</span>
+          <p className="text-[#2c628b] mt-2  w-fit mx-auto h-4 md:text-1xl font-vexa text-[20px] bg-[#f2cc3f]  md:text-right text-center leading-relaxed mb-6 ">
+            <span className="relative -top-4">{title}</span>
             {/* <span className="w-full flex justify-center relative -top-2">
                 <RiNumber4
                   size={40}
@@ -31,10 +37,10 @@ const Collage = ({ title, img, accounts = [{ name: "", account: "" }] }) => {
               </span> */}
           </p>
         </div>
-        <span className="absolute bottom-2 left-1/2 -translate-x-1/2 cursor-pointer text-[#3384c3]/90 hover:text-gray-400">
+        <span className="absolute bottom-2 left-1/2 -translate-x-1/2 cursor-pointer text-[#266493] hover:text-gray-400">
           <Dialog>
             <DialogTrigger asChild>
-              <Button className="round-full p-2 bg-[#3384c3]/90">
+              <Button className="round-full p-2 bg-[#266493]">
                 <MdAdsClick />
               </Button>
             </DialogTrigger>
@@ -47,13 +53,11 @@ const Collage = ({ title, img, accounts = [{ name: "", account: "" }] }) => {
                   {accounts.map((account, index) => (
                     <Link
                       key={index}
-                      to={account.account}
+                      //   to={account.account}
                       className="flex gap-2"
                     >
-                      <p className="underline">{account.name}</p>{" "}
-                      <p>
-                        <FaTwitter />
-                      </p>
+                      <p>{account?.account}</p>
+                      <p className="">{account.name}</p>{" "}
                     </Link>
                   ))}
                 </DialogDescription>
