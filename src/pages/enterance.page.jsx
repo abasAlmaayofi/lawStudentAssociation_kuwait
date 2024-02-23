@@ -15,7 +15,7 @@ const Entrance = () => {
         <img
           src={entranceBackground}
           alt="entrance-background"
-          className="absolute top-0 w-scree h-screen"
+          className="w-screen h-screen"
         />
         <div className="absolute top-0 z-10 flex bg-gray-200/70 flex-col items-center w-screen h-screen">
           <div>
