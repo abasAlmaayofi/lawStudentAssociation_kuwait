@@ -132,7 +132,7 @@ const Home = () => {
             </Button>
             <Button variant="link">
               <Link
-                to="third-year"
+                to="/third-year"
                 className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> الفرقة الدراسية الثالثة </p>{" "}
@@ -144,7 +144,7 @@ const Home = () => {
             <Button variant="link">
               {" "}
               <Link
-                to="fourth-year"
+                to="/fourth-year"
                 className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> الفرقة الدراسية الرابعة </p>{" "}
@@ -209,7 +209,7 @@ const Home = () => {
                 </span>
               </Link>
             </Button>
-            <Button variant="link">
+            {/* <Button variant="link">
               <Link
                 to="/faculty-accounts"
                 className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
@@ -219,7 +219,7 @@ const Home = () => {
                   13
                 </span>
               </Link>
-            </Button>
+            </Button> */}
           </div>
           <Footer />
         </div>
