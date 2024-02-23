@@ -60,7 +60,7 @@ const Faculty = () => {
                     account: "dr.fayezkandri",
                   },
                   {
-                    name: "د.موسي ازلق",
+                    name: "د.موسي رزيق",
                     account: "moussa dr_",
                   },
                   {
@@ -89,11 +89,11 @@ const Faculty = () => {
                     account: "khaledalhendyani",
                   },
                   {
-                    name: "د. محمد المطير",
+                    name: "د. محمد المطيري",
                     account: "Drmohammed_almutairi",
                   },
                   {
-                    name: "د. ازان ال بن علي",
+                    name: "د. رزان ال بن علي",
                     account: "raibenali",
                   },
                   {
