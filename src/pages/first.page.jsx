@@ -287,6 +287,10 @@ const FirstYear = () => {
                   link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/Sharia/test.pdf?t=2024-02-22T18%3A43%3A56.743Z",
                   text: "نماذج إختبارات شريعة",
                 },
+                {
+                  link: "https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/Sharia/oqabAlmutairi.pdf?t=2024-02-27T17%3A52%3A00.365Z",
+                  text: "نوت شريعة - عقاب المطيري",
+                },
               ]}
               title="مدخل الشريعة"
             />
