@@ -97,7 +97,7 @@ const Home = () => {
             </Button>
             <Button variant="link">
               <Link
-                to="https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/student_manual-35-36.pdf?t=2024-02-15T20%3A10%3A28.529Z"
+                to="https://ctfbafebksoayjgumfsw.supabase.co/storage/v1/object/public/main_lsaku/studentManual-35-36.pdf?t=2024-02-27T04%3A53%3A52.481Z"
                 className="relative w-[360px] h-20 flex items-center justify-center tracking-wide   text-center px-4 py-2   text-[#3384c3] border-2 border-[#3384c3] border-dashed rounded-lg text-md hover:bg-[#3384c3] hover:text-gray-100"
               >
                 <p> صحيفة التخرج </p>{" "}
