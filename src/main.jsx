@@ -5,6 +5,7 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <h1>Page Not Found</h1>
+    {/* <App /> */}
   </React.StrictMode>,
 )
